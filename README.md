@@ -60,7 +60,7 @@ Depois da lista, escreve o número do repo e uma letra:
 
 | Acção | Faz |
 |---|---|
-| `3c` | corre o [smart-commit](../smart-commit) nesse repo (se o tiveres instalado) |
+| `3c` | corre o [smart-commit](https://github.com/Keybachira/ab-commiter) nesse repo (se o tiveres instalado) |
 | `3p` | `git push` (ou `push -u origin HEAD` se o ramo ainda não foi enviado) |
 | `3l` | `git pull --ff-only` (nunca cria merges sozinho) |
 | `3e` | abre no editor (`zed`, `code` ou `cursor`; muda com `REPO_RADAR_EDITOR`) |
