@@ -1,0 +1,17 @@
+[project]
+name = "repo-radar"
+version = "0.1.0"
+description = "Mostra quais dos teus repositórios têm trabalho por acabar: alterações, commits por enviar, stash"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+repo-radar = "repo_radar:_entrada"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["repo_radar"]

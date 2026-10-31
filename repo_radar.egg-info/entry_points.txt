@@ -1,0 +1,2 @@
+[console_scripts]
+repo-radar = repo_radar:_entrada
